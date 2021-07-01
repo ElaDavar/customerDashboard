@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Card,
   CardContent,
@@ -14,12 +14,12 @@ function Form() {
     const [net, setNet] = useState('');
     
     const handleReset = () => {
-        
-      };
+
+    };
     
-      const handleAdd = (e) => {
+    const handleAdd = (e) => {
         e.preventDefault();
-      };
+    };
     
     return (
         <div>

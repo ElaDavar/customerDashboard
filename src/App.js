@@ -16,7 +16,7 @@ function App() {
           <Overview />
         </Grid>
       </Grid>
-      <Grid className="table">
+      <Grid className="table" item xs={12}>
         <ItemsTable />
       </Grid>
     </div>

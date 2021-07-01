@@ -5,6 +5,7 @@ import {
   Typography,
   Grid,
 } from "@material-ui/core";
+import "./overview.css"
 
 function Overview() {
 
@@ -12,10 +13,14 @@ function Overview() {
         <div>
             <Card className="card">
                 <CardContent className="content">
-                    <Typography>Overview</Typography>
+                    <Typography className="items">Overview</Typography>
                     <Grid container>
-                        <Grid items xs={4}>Total</Grid>
-                        <Grid items xs={8}>2000</Grid>
+                        <Grid items xs={5} className="items">Total Sum</Grid>
+                        <Grid items xs={6} className="items">2000</Grid>
+                        <Grid items xs={5} className="items">Average</Grid>
+                        <Grid items xs={6} className="items">1000</Grid>
+                        <Grid items xs={5} className="items">Total Items</Grid>
+                        <Grid items xs={6} className="items">2</Grid>
                     </Grid>
                 </CardContent>
             </Card>
