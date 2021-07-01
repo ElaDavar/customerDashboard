@@ -9,7 +9,7 @@ import {
 function Overview() {
 
     return (
-        <div className="Overview">
+        <div>
             <Card className="card">
                 <CardContent className="content">
                     <Typography>Overview</Typography>

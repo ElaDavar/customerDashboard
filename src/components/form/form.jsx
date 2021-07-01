@@ -22,7 +22,7 @@ function Form() {
       };
     
     return (
-        <div className="Form">
+        <div>
             <Card className="card">
                 <CardContent className="content">
                     <TextField
